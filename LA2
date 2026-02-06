@@ -1,0 +1,15 @@
+#LA2
+#Write a Python script that takes two Integer inputs x and y.
+#Display the result of all comparison operations.
+#Use the order: >, >=, <, <=, ==, !=
+
+x = int(input("enter x: "))
+y = int(input("enter y: " ))
+
+print (f"x{x} > y{y} = {x > y}")
+print (f"x{x} >= y{y} = {x >= y}")
+print (f"x{x} < y{y} = {x < y}")
+print (f"x{x} <= y{y} = {x <= y}")
+print (f"x{x} == y{y} = {x == y}")
+print (f"x{x} != y{y} = {x != y}")
+
