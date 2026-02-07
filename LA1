@@ -5,6 +5,6 @@
 
 years = float(input("Enter number of year: "))
 
-years_seconds = years * 365 * 24 * 60 * 60
+years_seconds = years * 31536000
 
 print (f"Output: {years_seconds}")
